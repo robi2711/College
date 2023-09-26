@@ -1,0 +1,8 @@
+1. Develop an algorithm
+2. Write a software implementation of the program
+3. Compile it
+4. Fix any compilation problems
+5. Test it
+6. Fix any runtime errors 
+repeat steps 3 to 6 as necissary
+

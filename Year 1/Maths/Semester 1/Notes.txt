@@ -1,0 +1,9 @@
+R^3 is 3-d
+
+Q = Rational Numbers
+-Since only one output is accepted do [0,∞) to limit answers to +
+
+-Dirichlet's Function
+-> h(x) = { 1 if x = Q  }
+          { 0 if x = R-Q}
+-> Domain: R->R, Range:{0,1}
