@@ -6,3 +6,20 @@
 6. Fix any runtime errors 
 repeat steps 3 to 6 as necissary
 
+void setup()
+{
+size(400, 400); // Create window
+}
+void draw()
+{
+background(255,255,255); // Clear the screen
+fill(255,0,0); // Red
+rect(mouseX-40,mouseY-30,40,20); // Draw rectangle
+fill(0,0,0);
+circle(mouseX-8,mouseY-5,15);
+fill(0,0,0);
+circle(mouseX-32,mouseY-5,15);
+fill(255,0,0);
+triangle(mouseX-60,mouseY-10,mouseX-40,mouseY-30,mouseX-40,mouseY-10);
+triangle(mouseX+0,mouseY-10,mouseX+0,mouseY-30,mouseX+20,mouseY-10);
+}
