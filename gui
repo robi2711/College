@@ -1,0 +1,44 @@
+import controlP5.*;
+
+
+int knobR = 0;
+int knobG = 200;
+int knobB = 0;
+int rectC = color(0,0,0);
+
+void setup(){
+  size(800,600);
+  ControlP5 cp5 = new ControlP5(this);
+  cp5.addKnob("redVal")
+    .setMin(0)
+    .setMax(255)
+    .setValue(0)
+    .setPosition(70, 120)
+    .setSize(100, 100)
+    ;
+     cp5.addKnob("blueVal")
+    .setMin(0)
+    .setMax(255)
+    .setValue(0)
+    .setPosition(350, 120)
+    .setSize(100, 100)
+    ;
+     cp5.addKnob("greenVal")
+    .setMin(0)
+    .setMax(255)
+    .setValue(0)
+    .setPosition(600, 120)
+    .setSize(100, 100)
+    ;
+    cp5.addToggle("Display Circle")
+     .setPosition(370,300)
+     .setSize(50,20)
+     .setValue(true)
+     .setMode(ControlP5.SWITCH)
+     ;
+}
+void draw(){
+  
+  rect(100, 350, 600, 100);
+  circle(400, 530, 100);
+}
